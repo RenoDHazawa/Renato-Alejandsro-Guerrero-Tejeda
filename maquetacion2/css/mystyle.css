@@ -1,0 +1,157 @@
+.flex-container{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: none;
+    justify-content: space-between;
+    
+}
+.flex-item-1{
+    width: 150px;
+    height: 100px;
+    background-color: none;
+}
+#logo{
+    width: 150px;
+
+
+}
+
+#contacto{
+    font-weight: lighter;
+    font-size: 16px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+/*Fin del header*/
+.flex-container-2{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    overflow: hidden;
+    height: 400px;
+
+}
+
+.flex-item-2{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    
+    
+}
+#lukita{
+    width: 1000px;
+    height: 400px;
+}
+/*Fin del Flex 2*/
+
+.flex-container-3{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    height: 200px;
+
+}
+/*cards*/    
+.flex-item-3-1{
+/*font-weight:bolder ;*/
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  overflow: scroll;
+  margin: 10px;
+  flex-grow: 2;
+  flex-shrink: 2;
+}
+.flex-item-3-1:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.flex-item-3-2{
+    /*font-weight:bolder ;*/
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      transition: 0.3s;
+      overflow: scroll;
+      margin: 10px;
+      flex-grow: 3;
+      flex-shrink: 1;
+    }
+    .flex-item-3-2:hover{
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+
+
+    .flex-item-3-3{
+        /*font-weight:bolder ;*/
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+          transition: 0.3s;
+          overflow: scroll;
+          margin: 10px;
+          flex-grow: 1;
+          flex-shrink: 1;
+        }
+        .flex-item-3-3:hover{
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        }    
+.container{
+    padding: 2px 16px;
+
+}
+.imagenes-cards{
+    width: 100px;
+}
+/*fin de cards*/
+.flex-container-4{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.flex-item-4-1{
+    width: 300px;
+    height: 156px;
+    overflow: scroll;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2px;
+    padding: 15px;
+    margin: 10px;
+}
+.flex-item-4-2{
+    width: 300px;
+    height: 156px;
+    overflow: scroll;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2px;
+    padding: 15px;
+    margin: 10px;
+}
+.flex-item-4-3{
+    width: 300px;
+    height: 156px;
+    overflow: scroll; font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2px;
+    padding: 15px;
+    margin: 10px;
+}
+.flex-item-4-4{
+    width: 300px;
+    height: 156px;
+    overflow: scroll;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2px;
+    padding: 15px;
+    margin: 10px;
+}
+/*footer*/
+.flex-container-5{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color:rgb(49, 112, 247) ;
+    justify-content: center;
+    height: 100px;
+}
+#logo-footer{
+    width: 300px;
+}
